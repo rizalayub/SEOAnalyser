@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "StopWordOption";
+    var option = ViewBag.Option;
+}
+
+
+<div class="container">
+    <form method="post" action="~/Home/FilterStopWord">
+        @if (option == "0")
+        {
+            <div class="form-group">
+                <label for="url">Url:</label>
+                <input type="url" name="url" class="form-control" id="url" required>
+            </div>
+        }
+        else
+        {
+            <div class="form-group">
+                <label for="AnyText">Any Text:</label>
+                <textarea name="anytext" class="form-control" id="anytext" cols="4" rows="10"></textarea>
+            </div>
+        }
+
+        <button type="submit" class="btn btn-default">Filter</button>
+    </form>
+
+
+</div>

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<SeoAnalyser.Models.StopWords>
+
+@{
+    ViewBag.Title = "FilterStopWord";
+    var url = ViewBag.Url;
+}
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Word)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Count)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Word)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Count)
+            </td>
+        </tr>
+    }
+
+</table>
+

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeoAnalyser", "SeoAnalyser\SeoAnalyser.csproj", "{72A23ABF-645E-4235-BD10-4DBA4FF12AE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeoAnalyser.Tests", "SeoAnalyser.Tests\SeoAnalyser.Tests.csproj", "{A2C51B23-21EE-43C0-A9AF-7E4B5064D728}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72A23ABF-645E-4235-BD10-4DBA4FF12AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A23ABF-645E-4235-BD10-4DBA4FF12AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A23ABF-645E-4235-BD10-4DBA4FF12AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A23ABF-645E-4235-BD10-4DBA4FF12AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C51B23-21EE-43C0-A9AF-7E4B5064D728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C51B23-21EE-43C0-A9AF-7E4B5064D728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C51B23-21EE-43C0-A9AF-7E4B5064D728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C51B23-21EE-43C0-A9AF-7E4B5064D728}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F7FEACD-3B6B-4DBB-AA8D-50BCD5A86113}
+	EndGlobalSection
+EndGlobal
