@@ -11,7 +11,16 @@ namespace SeoAnalyser.Models
     {
         public IEnumerable<string> GetFromSource()
         {
-            var path = HttpContext.Current.Request.MapPath("~/stopword.txt");
+            string path = "";
+            if(HttpContext.Current == null)
+            {
+                path = "../../files/stopword.txt";
+            }
+            else
+            {
+                path = HttpContext.Current.Request.MapPath("~/stopword.txt");
+            }
+            
             return File.ReadAllLines(path);
         }
     }
